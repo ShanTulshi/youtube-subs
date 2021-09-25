@@ -1,0 +1,17 @@
+{
+    "name": "Youtube Subscriptor",
+    "description": "Going to the YouTube homepage will instead take you to the Subscriptions feed.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "webNavigation",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://www.youtube.com/"
+    ]
+  }
+  
